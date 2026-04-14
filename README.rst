@@ -3,23 +3,23 @@ Welcome to MLClouds!
 ####################
 |Docs| |Tests| |Linter| |PyPi| |PythonV| |Codecov| |Zenodo|
 
-.. |Docs| image:: https://github.com/NREL/mlclouds/workflows/Documentation/badge.svg
-    :target: https://nrel.github.io/mlclouds/
+.. |Docs| image:: https://github.com/NatLabRockies/mlclouds/workflows/Documentation/badge.svg
+    :target: https://natlabrockies.github.io/mlclouds/
 
-.. |Tests| image:: https://github.com/NREL/mlclouds/workflows/Pytests/badge.svg
-    :target: https://github.com/NREL/mlclouds/actions?query=workflow%3A%22Pytests%22
+.. |Tests| image:: https://github.com/NatLabRockies/mlclouds/workflows/Pytests/badge.svg
+    :target: https://github.com/NatLabRockies/mlclouds/actions?query=workflow%3A%22Pytests%22
 
-.. |Linter| image:: https://github.com/NREL/mlclouds/workflows/Lint%20Code%20Base/badge.svg
-    :target: https://github.com/NREL/mlclouds/actions?query=workflow%3A%22Lint+Code+Base%22
+.. |Linter| image:: https://github.com/NatLabRockies/mlclouds/workflows/Lint%20Code%20Base/badge.svg
+    :target: https://github.com/NatLabRockies/mlclouds/actions?query=workflow%3A%22Lint+Code+Base%22
 
-.. |PyPi| image:: https://img.shields.io/pypi/pyversions/NREL-mlclouds.svg
-    :target: https://pypi.org/project/NREL-mlclouds/
+.. |PyPi| image:: https://img.shields.io/pypi/pyversions/NLR-mlclouds.svg
+    :target: https://pypi.org/project/NLR-mlclouds/
 
-.. |PythonV| image:: https://badge.fury.io/py/NREL-mlclouds.svg
-    :target: https://badge.fury.io/py/NREL-mlclouds
+.. |PythonV| image:: https://badge.fury.io/py/NLR-mlclouds.svg
+    :target: https://badge.fury.io/py/NLR-mlclouds
 
-.. |Codecov| image:: https://codecov.io/gh/nrel/mlclouds/branch/main/graph/badge.svg
-    :target: https://codecov.io/gh/nrel/mlclouds
+.. |Codecov| image:: https://codecov.io/gh/NatLabRockies/mlclouds/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/NatLabRockies/mlclouds
 
 .. |Zenodo| image:: https://zenodo.org/badge/340209614.svg
     :target: https://zenodo.org/badge/latestdoi/340209614
@@ -30,19 +30,19 @@ Welcome to MLClouds!
 A machine learning approach to predicting missing cloud properties in the National Solar Radiation Database (NSRDB)
 -------------------------------------------------------------------------------------------------------------------
 
-The National Solar Radiation Database (NSRDB) is NREL's flagship solar data resource. With over 20 years of high-resolution surface irradiance
+The National Solar Radiation Database (NSRDB) is NLR's flagship solar data resource. With over 20 years of high-resolution surface irradiance
 data covering most of the western hemisphere, the NSRDB is a crucial public data asset. A fundamental input to accurate surface irradiance in the
 NSRDB is high quality cloud property data. Cloud properties are used in radiative transfer calculations and are sourced from satellite imagery.
 Improving the accuracy of cloud property inputs is a tractable method for improving the accuracy of the irradiance data in the NSRDB. For example,
 in July of 2018, an average location in the Continental United States is missing cloud property data for nearly one quarter of all daylight cloudy timesteps.
 This project aims to improve the cloud data inputs to the NSRDB by using machine learning techniques to exploit the NSRDB's massive data resources.
-More accurate cloud property input data will yield more accurate surface irradiance data in the NSRDB, providing direct benefit to researchers at NREL
+More accurate cloud property input data will yield more accurate surface irradiance data in the NSRDB, providing direct benefit to researchers at NLR
 and to public data users everywhere.
 
 Installation
 ============
 
-It is recommended that you first follow the `install instructions for the NSRDB <https://github.com/NREL/nsrdb>`_.
+It is recommended that you first follow the `install instructions for the NSRDB <https://github.com/NatLabRockies/nsrdb>`_.
 Then run ``pip install -e .`` from the mlclouds directory containing ``setup.py``.
 If you are a developer, also run ``pre-commit install`` in the same directory.
 

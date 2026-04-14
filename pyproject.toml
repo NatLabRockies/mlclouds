@@ -6,14 +6,14 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "NREL-mlclouds"
+name = "NLR-mlclouds"
 dynamic = ["version"]
 description = "A machine learning approach to predicting missing cloud properties in the National Solar Radiation Database (mlclouds)"
-keywords = ["mlclouds", "NREL"]
+keywords = ["mlclouds", "NLR"]
 readme = "README.rst"
 authors = [
-  {name = "Grant Buster", email = "grant.buster@nrel.gov"},
-  {name = "Brandon Benton", email = "brandon.benton@nrel.gov"},
+  {name = "Grant Buster", email = "grant.buster@nlr.gov"},
+  {name = "Brandon Benton", email = "brandon.benton@nlr.gov"},
 ]
 license = {text = "BSD-3-Clause"}
 requires-python = ">= 3.9"
@@ -28,8 +28,8 @@ classifiers=[
 ]
 
 dependencies = [
-  "NREL-nsrdb>=3.0",
-  "NREL-phygnn>=0.0.24",
+  "NREL-nsrdb>=4.1.2",
+  "NREL-phygnn>=0.0.30",
   "tensorflow==2.12",
   "plotly"
 ]
@@ -52,9 +52,9 @@ test = [
 ]
 
 [project.urls]
-homepage = "https://github.com/NREL/mlclouds"
-documentation = "https://nrel.github.io/mlclouds/"
-repository = "https://github.com/NREL/mlclouds"
+homepage = "https://github.com/NatLabRockies/mlclouds"
+documentation = "https://natlabrockies.github.io/mlclouds/"
+repository = "https://github.com/NatLabRockies/mlclouds"
 
 [tool.ruff]
 line-length = 79
@@ -171,6 +171,8 @@ packages = ["mlclouds"]
 
 [tool.setuptools_scm]
 version_file = "mlclouds/_version.py"
+version_scheme = "guess-next-dev"
+fallback_version = "0.0.6"
 
 [tool.pytest_env]
 CUDA_VISIBLE_DEVICES = "-1"
