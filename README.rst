@@ -51,7 +51,7 @@ Acknowledgments
 ===============
 
 This work (SWR-23-77) was authored by the National Renewable Energy Laboratory,
-operated by Alliance for Sustainable Energy, LLC, for the U.S. Department of
+operated by Alliance for Energy Innovation, LLC, for the U.S. Department of
 Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding provided by the DOE
 Grid Deployment Office (GDO), the DOE Advanced Scientific Computing Research
 (ASCR) program, the DOE Solar Energy Technologies Office (SETO), the DOE Wind
