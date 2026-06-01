@@ -29,7 +29,7 @@ classifiers=[
 
 dependencies = [
   "NREL-nsrdb>=4.1.2",
-  "NREL-phygnn>=0.0.30",
+  "NREL-phygnn>=0.0.30,<0.0.34",
   "tensorflow==2.12",
   "plotly"
 ]
